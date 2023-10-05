@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.button {
+  color: #a35200;
+  background-color: #e2a139;
+  border-radius: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-top: 16px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 765px) {
+  .button {
+    margin-top: 32px;
+  }
+}
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.card-container {
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  padding: 24px;
+}
+@media screen and (min-width: 786px) {
+  .card-container {
+    max-width: 500px;
+    padding: 48px;
+  }
+}
+.image-1 {
+  height: 100px;
+  width: 100px;
+}
+.heading {
+  color: #a35200;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.para {
+  color: #334155;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Roboto';
+}
+.para-1 {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Roboto';
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 786px) {
+  .count-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+  }
+}
